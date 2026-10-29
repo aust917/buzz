@@ -2,11 +2,21 @@
 name: Snapcraft
 on:
   push:
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+      - 'scripts/check_agent_docs.py'
+      - '.github/workflows/agent-docs.yml'
     branches:
       - main
     tags:
       - "*"
   pull_request:
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+      - 'scripts/check_agent_docs.py'
+      - '.github/workflows/agent-docs.yml'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}

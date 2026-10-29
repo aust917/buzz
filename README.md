@@ -2,6 +2,11 @@
 
 # Buzz
 
+This is the [aust917/buzz](https://github.com/aust917/buzz) fork of
+[chidiwilliams/buzz](https://github.com/chidiwilliams/buzz).
+For development, start with [the engineering guide](docs/development/README.md)
+or [AGENTS.md](AGENTS.md). Installation links and badges below refer to upstream.
+
 [Documentation](https://chidiwilliams.github.io/buzz/)
 
 Transcribe and translate audio offline on your personal computer. Powered by

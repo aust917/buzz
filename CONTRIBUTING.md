@@ -1,5 +1,10 @@
 # Buzz Contribution Guide
 
+For this fork, start with the [development guide](docs/development/README.md)
+and [repository instructions](AGENTS.md). The development guide records current
+Python requirements, validation commands and differences from inherited setup
+examples below.
+
 ## Internationalization
 
 To contribute a new language translation to Buzz:
